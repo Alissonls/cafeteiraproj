@@ -1,17 +1,86 @@
+/* IMPORTANDO as fontes do GOOGLE */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
 /* Zerar as MARGENS de todos os elementos  da página.
 MARGENS externas e internas */
 
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 
 /* Vamos adicionar uma imagem ao fundo do HEADER */
 
 header{
-    background-image: url("../img/cafeteria2.jpg");
-    height: 450px;
+    background-image: url("../img/cafeteria10.jpg");
+    /* Ajustar o tamanho da IMAGEM em 100% de largura */
+    background-size: 100%;
+    /* Ajustar a posição da imagem em X & Y */
+    background-position: 0px -130px ;   
+    height: 400px;
+    padding: 30px;
+    
+     
+}
+nav{
+    /* tornando o conteudo da NAV flexível(flex).Isso permite que os elementos fique um ao lado do outro */
+    display: flex;
+    /* alinhamento vertical do ELEMENTOS que estão na NAV */
+    align-items:center;
 
+}
+
+h1{
+    /* Mudar a COR da letra */
+    color: rgb(241, 241, 241);
+    /* alterar o TIPO de letra */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25pt;
+    /* Voce pode alterar o TAMANHO DA CAIXA ALTA OU BAIXA */
+    text-transform: capitalize;
+    margin-right: 190px;
+       
+}
+
+ul{
+
+/* Retirar o marcdaor da LISTA */
+list-style: none;
+
+}
+
+/* Sempre colocar o caminho UL LI... */
+header ul li{
+    /* vamo ajustar a disposição(display) dos ITENS da lista em formato de linha */
+    display: inline-block;  
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 4px;
+   
+}
+header ul li:hover{
+    background-color: #d1c4e9;
     
 }
+header ul a{
+    color:  #5e35b1;
+    /* Vamos retirar o underline(sublinhado) */
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+header h2{
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 30pt;
+    font-weight: 600;
+    text-shadow: 0px 0px 5px black;
+
+}
+
+
