@@ -1,6 +1,6 @@
 /* IMPORTANDO as fontes do GOOGLE */
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Lexend:wght@100..900&display=swap');
 
 /* Zerar as MARGENS de todos os elementos  da página.
 MARGENS externas e internas */
@@ -18,9 +18,10 @@ header{
     /* Ajustar o tamanho da IMAGEM em 100% de largura */
     background-size: 100%;
     /* Ajustar a posição da imagem em X & Y */
-    background-position: 0px -130px ;   
+    background-position: 0px -60px ;   
     height: 400px;
     padding: 30px;
+
     
      
 }
@@ -41,6 +42,7 @@ h1{
     /* Voce pode alterar o TAMANHO DA CAIXA ALTA OU BAIXA */
     text-transform: capitalize;
     margin-right: 190px;
+    text-shadow: 0px 0px 5px rgb(25, 24, 24);
        
 }
 
@@ -65,14 +67,16 @@ header ul li:hover{
     
 }
 header ul a{
-    color:  #5e35b1;
+    color:  whitesmoke;
     /* Vamos retirar o underline(sublinhado) */
     text-decoration: none;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 5px rgb(25, 24, 24);
     }
 
 header h2{
+    
     color: white;
     text-align: center;
     margin-top: 70px;
@@ -82,5 +86,33 @@ header h2{
     text-shadow: 0px 0px 5px black;
 
 }
+header p{
+    font-family: "Lexend", sans-serif;
+    font-size: 12pt;
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-shadow: 0px 0px 5px black;
+}
 
+footer{
+    background-color: #d6c6f2 ;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: whitesmoke
+                                         
+}
+
+footer #redesSociais li{
+    /* colocar as redes em linha */
+    display: inline-block;
+    margin-right: 25px ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
 
