@@ -100,7 +100,7 @@ footer{
     background-color: #d6c6f2 ;
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
     color: whitesmoke
@@ -114,5 +114,60 @@ footer #redesSociais li{
     padding-top: 100px;
     padding-bottom: 100px;
 
+}
+
+footer #end{
+    /* alinhamento do endereço junto a redes sociais */
+    margin-right: 25px ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* --------------------formatação da página INDEX------------------------- */
+
+main h2{
+    font-family: "Titillium Web", sans-serif;
+    margin: 50px;
+    font-size: 25pt;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 5px black;
+}
+
+main #home p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 50px 30px 50px;
+    font-size: 12pt;
+    /* O comando line-height define a altura da linha
+    (espaçamento entre linhas).Estamos usando uma altura
+    de 1,5, ou seja, o tamanho da fonte mais o meio do tamanho
+    da fonte */
+
+    /* comando para jutificar caso queira ----> text-align: justify; */
+    line-height: 18pt;
+}
+
+main #imghome img{
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    /* arredondar imagens */
+    border-radius: 200px;
+    /* Vamos aplicar um efeito de transparencia
+    na imagen, utilizando o comando opacity que 
+    varia entre 0 e 1, ou seja, se você aplicar 0.6,
+    significa que você está usando 60% de opacidade.Isso
+    representa 60% de visiblidade */
+    opacity: 0.7;
+    /* O comando TRANSITION realiza uma animação de transição,
+    que você pode configurar o tipo de transição e o tempo da trasição */
+    transition: ease 1s;
+}
+
+main #imghome img:hover{
+    opacity: 1;
+
+}
+main #imghome{
+    text-align: center;
 }
 
