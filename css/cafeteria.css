@@ -1,6 +1,7 @@
 /* IMPORTANDO as fontes do GOOGLE */
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Zerar as MARGENS de todos os elementos  da página.
 MARGENS externas e internas */
@@ -10,6 +11,10 @@ MARGENS externas e internas */
     padding: 0px;
     box-sizing:border-box;
 }
+
+html{
+    scroll-behavior: smooth;
+    }
 
 /* Vamos adicionar uma imagem ao fundo do HEADER */
 
@@ -130,7 +135,7 @@ footer #end{
 main h2{
     font-family: "Titillium Web", sans-serif;
     margin: 50px;
-    font-size: 25pt;
+    font-size: pt;
     text-transform: uppercase;
     text-shadow: 0px 0px 5px black;
 }
@@ -213,3 +218,68 @@ main #categoriacardapio{
     text-decoration: none;
     color: black;
 }
+
+.linha{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    
+}
+
+.item{
+    width: 25%;
+    display: flex;
+    margin: 40px;
+    
+}
+
+.item img{
+    width: 190px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.item div h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    margin: 5px
+
+}
+
+.item div p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    font-size: 10pt;
+}
+
+#cafes h2, #salgados h2 ,#doces h2{
+    font-size: 25pt;
+    margin-left: 200px;
+}
+
+
+/* -----------------pagina QUEM SOMOS------------------------------ */
+
+main p{
+    
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16pt;
+    height: 20pt;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 95px;
+}
+
+#video{
+    text-align: center;
+    
+}
+
+#video iframe{
+    width: 80%;
+    height: 400px;
+    margin: 50px;
+}
+
