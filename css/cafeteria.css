@@ -46,14 +46,14 @@ h1{
     font-size: 25pt;
     /* Voce pode alterar o TAMANHO DA CAIXA ALTA OU BAIXA */
     text-transform: capitalize;
-    margin-right: 190px;
+    margin-right: 100px;
     text-shadow: 0px 0px 5px rgb(25, 24, 24);
        
 }
 
 ul{
 
-/* Retirar o marcdaor da LISTA */
+/* Retirar o marcador da LISTA */
 list-style: none;
 
 }
@@ -155,7 +155,7 @@ main #home p{
 main #imghome img{
     width: 400px;
     height: 400px;
-    margin: 20px;
+    margin: 150px;
     /* arredondar imagens */
     border-radius: 200px;
     /* Vamos aplicar um efeito de transparencia
@@ -269,7 +269,7 @@ main p{
     height: 20pt;
     margin-left: 50px;
     margin-right: 50px;
-    margin-bottom: 95px;
+    margin-bottom: 90px;
 }
 
 #video{
@@ -278,7 +278,17 @@ main p{
 }
 
 #video iframe{
-    width: 80%;
+    width: 50%;
+    height: 500px;
+    margin: 60px;
+}
+
+#mapa{
+    text-align: center;
+}
+
+#mapa iframe{
+    width: 50%;
     height: 400px;
     margin: 50px;
 }
