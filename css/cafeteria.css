@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Lexend:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /* Zerar as MARGENS de todos os elementos  da página.
 MARGENS externas e internas */
 
@@ -19,13 +19,14 @@ html{
 /* Vamos adicionar uma imagem ao fundo do HEADER */
 
 header{
-    background-image: url("../img/cafeteria10.jpg");
+    background-image: url("../img/cafeteira1.jpg");
     /* Ajustar o tamanho da IMAGEM em 100% de largura */
     background-size: 100%;
     /* Ajustar a posição da imagem em X & Y */
-    background-position: 0px -60px ;   
+    background-position: 0px -200px ;   
     height: 400px;
-    padding: 30px;
+    padding: 35px;
+    
 
     
      
@@ -105,7 +106,7 @@ footer{
     background-color: #d6c6f2 ;
     display: flex;
     justify-content: space-between;
-    padding: 25px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
     color: whitesmoke
@@ -292,4 +293,55 @@ main p{
     height: 400px;
     margin: 50px;
 }
+/* -----------------contato------------------ */
+form{
+    /* border: 4px solid red; */
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    padding: 10px;
+    box-shadow: 0px 2px 5px black;
+    justify-items: center;
+}
 
+input[type=text], 
+input[type=tel], 
+input[type=email],
+select {
+    display: block;
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 11px;
+    border:0px;
+    /* retira a borda */
+    outline: none;
+    border-bottom: 1px solid #e1bee7;
+}
+
+select{
+    width: 45%;
+    
+}
+
+textarea{
+    width: 100%;
+    height: 200px;
+    resize: none;
+    outline-color: #d1c4e9;
+}
+form span{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+input[type=submit]{
+    padding: 10px 30px;
+    border: 0;
+    background: #e1bee7;
+    /* mouse vira uma mão */
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 15px auto;
+}
